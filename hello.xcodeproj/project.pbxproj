@@ -20,6 +20,17 @@
 		F863478115226C1800491964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F863476215226C1800491964 /* Foundation.framework */; };
 		F863478915226C1800491964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F863478715226C1800491964 /* InfoPlist.strings */; };
 		F863478C15226C1800491964 /* helloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F863478B15226C1800491964 /* helloTests.m */; };
+		F863479715226C3E00491964 /* exit00.png in Resources */ = {isa = PBXBuildFile; fileRef = F863479515226C3E00491964 /* exit00.png */; };
+		F863479815226C3E00491964 /* exit01.png in Resources */ = {isa = PBXBuildFile; fileRef = F863479615226C3E00491964 /* exit01.png */; };
+		F86347A41522701F00491964 /* TitilliumText22L001.otf in Resources */ = {isa = PBXBuildFile; fileRef = F863479D1522701F00491964 /* TitilliumText22L001.otf */; };
+		F86347A51522701F00491964 /* TitilliumText22L002.otf in Resources */ = {isa = PBXBuildFile; fileRef = F863479E1522701F00491964 /* TitilliumText22L002.otf */; };
+		F86347A61522701F00491964 /* TitilliumText22L003.otf in Resources */ = {isa = PBXBuildFile; fileRef = F863479F1522701F00491964 /* TitilliumText22L003.otf */; };
+		F86347A71522701F00491964 /* TitilliumText22L004.otf in Resources */ = {isa = PBXBuildFile; fileRef = F86347A01522701F00491964 /* TitilliumText22L004.otf */; };
+		F86347A81522701F00491964 /* TitilliumText22L005.otf in Resources */ = {isa = PBXBuildFile; fileRef = F86347A11522701F00491964 /* TitilliumText22L005.otf */; };
+		F86347A91522701F00491964 /* TitilliumText22L006.otf in Resources */ = {isa = PBXBuildFile; fileRef = F86347A21522701F00491964 /* TitilliumText22L006.otf */; };
+		F86347AB1522791E00491964 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F86347AA1522791E00491964 /* Default.png */; };
+		F86347AD15227A6500491964 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F86347AC15227A6500491964 /* icon.png */; };
+		F86347AF15227AD100491964 /* icon_ret.png in Resources */ = {isa = PBXBuildFile; fileRef = F86347AE15227AD100491964 /* icon_ret.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +48,32 @@
 		F863476015226C1800491964 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F863476215226C1800491964 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F863476415226C1800491964 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F863476815226C1800491964 /* hello-Info.plist */ = {isa = PBXFileReference; path = "hello-Info.plist"; sourceTree = "<group>"; };
+		F863476815226C1800491964 /* hello-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hello-Info.plist"; sourceTree = "<group>"; };
 		F863476A15226C1800491964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F863476C15226C1800491964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F863476E15226C1800491964 /* hello-Prefix.pch */ = {isa = PBXFileReference; path = "hello-Prefix.pch"; sourceTree = "<group>"; };
-		F863476F15226C1800491964 /* helloAppDelegate.h */ = {isa = PBXFileReference; path = helloAppDelegate.h; sourceTree = "<group>"; };
+		F863476E15226C1800491964 /* hello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-Prefix.pch"; sourceTree = "<group>"; };
+		F863476F15226C1800491964 /* helloAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloAppDelegate.h; sourceTree = "<group>"; };
 		F863477015226C1800491964 /* helloAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloAppDelegate.m; sourceTree = "<group>"; };
 		F863477315226C1800491964 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F863477515226C1800491964 /* helloViewController.h */ = {isa = PBXFileReference; path = helloViewController.h; sourceTree = "<group>"; };
+		F863477515226C1800491964 /* helloViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloViewController.h; sourceTree = "<group>"; };
 		F863477615226C1800491964 /* helloViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloViewController.m; sourceTree = "<group>"; };
 		F863477D15226C1800491964 /* helloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F863477E15226C1800491964 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F863478615226C1800491964 /* helloTests-Info.plist */ = {isa = PBXFileReference; path = "helloTests-Info.plist"; sourceTree = "<group>"; };
+		F863478615226C1800491964 /* helloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloTests-Info.plist"; sourceTree = "<group>"; };
 		F863478815226C1800491964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F863478A15226C1800491964 /* helloTests.h */ = {isa = PBXFileReference; path = helloTests.h; sourceTree = "<group>"; };
+		F863478A15226C1800491964 /* helloTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloTests.h; sourceTree = "<group>"; };
 		F863478B15226C1800491964 /* helloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloTests.m; sourceTree = "<group>"; };
+		F863479515226C3E00491964 /* exit00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit00.png; sourceTree = "<group>"; };
+		F863479615226C3E00491964 /* exit01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit01.png; sourceTree = "<group>"; };
+		F863479D1522701F00491964 /* TitilliumText22L001.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumText22L001.otf; sourceTree = "<group>"; };
+		F863479E1522701F00491964 /* TitilliumText22L002.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumText22L002.otf; sourceTree = "<group>"; };
+		F863479F1522701F00491964 /* TitilliumText22L003.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumText22L003.otf; sourceTree = "<group>"; };
+		F86347A01522701F00491964 /* TitilliumText22L004.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumText22L004.otf; sourceTree = "<group>"; };
+		F86347A11522701F00491964 /* TitilliumText22L005.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumText22L005.otf; sourceTree = "<group>"; };
+		F86347A21522701F00491964 /* TitilliumText22L006.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumText22L006.otf; sourceTree = "<group>"; };
+		F86347AA1522791E00491964 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F86347AC15227A6500491964 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F86347AE15227AD100491964 /* icon_ret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ret.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,9 @@
 		F863475115226C1800491964 = {
 			isa = PBXGroup;
 			children = (
+				F86347AE15227AD100491964 /* icon_ret.png */,
+				F86347AC15227A6500491964 /* icon.png */,
+				F86347AA1522791E00491964 /* Default.png */,
 				F863476615226C1800491964 /* hello */,
 				F863478415226C1800491964 /* helloTests */,
 				F863475F15226C1800491964 /* Frameworks */,
@@ -116,6 +141,9 @@
 				F863477215226C1800491964 /* MainStoryboard.storyboard */,
 				F863477515226C1800491964 /* helloViewController.h */,
 				F863477615226C1800491964 /* helloViewController.m */,
+				F863479515226C3E00491964 /* exit00.png */,
+				F863479615226C3E00491964 /* exit01.png */,
+				F863479B1522701F00491964 /* TitilliumText */,
 				F863476715226C1800491964 /* Supporting Files */,
 			);
 			path = hello;
@@ -149,6 +177,19 @@
 				F863478715226C1800491964 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F863479B1522701F00491964 /* TitilliumText */ = {
+			isa = PBXGroup;
+			children = (
+				F863479D1522701F00491964 /* TitilliumText22L001.otf */,
+				F863479E1522701F00491964 /* TitilliumText22L002.otf */,
+				F863479F1522701F00491964 /* TitilliumText22L003.otf */,
+				F86347A01522701F00491964 /* TitilliumText22L004.otf */,
+				F86347A11522701F00491964 /* TitilliumText22L005.otf */,
+				F86347A21522701F00491964 /* TitilliumText22L006.otf */,
+			);
+			path = TitilliumText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +265,17 @@
 			files = (
 				F863476B15226C1800491964 /* InfoPlist.strings in Resources */,
 				F863477415226C1800491964 /* MainStoryboard.storyboard in Resources */,
+				F863479715226C3E00491964 /* exit00.png in Resources */,
+				F863479815226C3E00491964 /* exit01.png in Resources */,
+				F86347A41522701F00491964 /* TitilliumText22L001.otf in Resources */,
+				F86347A51522701F00491964 /* TitilliumText22L002.otf in Resources */,
+				F86347A61522701F00491964 /* TitilliumText22L003.otf in Resources */,
+				F86347A71522701F00491964 /* TitilliumText22L004.otf in Resources */,
+				F86347A81522701F00491964 /* TitilliumText22L005.otf in Resources */,
+				F86347A91522701F00491964 /* TitilliumText22L006.otf in Resources */,
+				F86347AB1522791E00491964 /* Default.png in Resources */,
+				F86347AD15227A6500491964 /* icon.png in Resources */,
+				F86347AF15227AD100491964 /* icon_ret.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
