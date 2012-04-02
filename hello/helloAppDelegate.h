@@ -16,5 +16,3 @@
 
 
 //Test der Funktion
-
-//Das ist ein Test des Git Dingens!!!
