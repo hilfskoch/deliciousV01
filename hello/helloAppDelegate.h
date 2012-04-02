@@ -14,4 +14,5 @@
 
 @end
 
-//don simon ist ein progg nerd
+
+//Test der Funktion
